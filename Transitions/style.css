@@ -1,0 +1,22 @@
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    transition: all 0.2s ease;
+}
+
+.item:hover{
+    /* transform: translateX(50px); */
+    /* transform: rotateZ(45deg); */
+    /* transform: scale(0.5); */
+    transform: skewX(20deg);
+}
+
