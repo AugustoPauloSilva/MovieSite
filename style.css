@@ -82,13 +82,14 @@ body{
 }
 
 .toggle-ball{
-    width: 18px;
-    height: 18px;
+    width: 19px;
+    height: 19px;
     background-color: black;
     position: absolute;
-    right: 1px;
+    right: 0px;
     border-radius: 50%;
     cursor: pointer;
+    transition: 1s ease all;
 }
 .sidebar{
     width: 50px;
@@ -235,3 +236,33 @@ body{
     cursor: pointer;
 }
 
+.container.active{
+    background-color: white;
+}
+
+.movie-list-title.active{
+    color: black;
+}
+
+.navbar-container.active{
+    background-color: white;
+
+    color: black;
+}
+
+.sidebar.active{
+    background-color: white;
+}
+
+.left-menu-icon.active{
+    color: black;
+}
+
+.toggle.active{
+    background-color: black;
+}
+
+.toggle-ball.active{
+    background-color: white;
+    transform: translateX(-20px);
+}
